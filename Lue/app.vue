@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<!-- <NuxtWelcome /> -->
-		<p class="bg-pin w-10 h-10">{{ lue }}</p>
+		<p class="btn">{{ lue }} <Icon name="ep:chrome-filled"></Icon></p>
 	</div>
 </template>
 <script setup lang="ts">
