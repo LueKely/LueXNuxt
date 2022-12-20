@@ -1,33 +1,61 @@
 <template>
-	<div>
+	<div class="w-screen h-screen flex items-center justify-center">
 		<!-- <NuxtWelcome /> -->
-		<div class="test">tite</div>
-		<div class="w-50vw] h-[50vh] bg-neutral-400 relative">
+
+		<!-- container -->
+		<div
+			class="w-50vw] h-[50vh] bg-neutral-400 flex items-center justify-start"
+		>
+			<!-- container -->
 			<div
-				ref="textbox"
-				class="rounded-full w-[100px] h-[100px] bg-lime-300"
-			></div>
+				class="w-[500px] h-[500px] bg-lime-300 flex items-center justify-center relative"
+			>
+				<!-- box -->
+				<div
+					ref="textbox"
+					class="bg-red-500 w-[400px] h-[400px] z-10 relative"
+				></div>
+				<!-- shadow -->
+				<div class="bg-green-500 w-[400px] h-[400px] absolute test z-0"></div>
+			</div>
 		</div>
-		<div>{{ elementX }} {{ elementY }}</div>
+		<!-- <div>{{ elementX }} {{ elementY }}</div>
 		<div>{{ xToString }}</div>
+		<div>{{ yToString }}</div> -->
 	</div>
 </template>
 <script setup lang="ts">
 	const textbox = ref(null);
-	const { elementX, elementY } = useMouseInElement(textbox);
+	const {
+		elementX,
+		elementY,
+
+		elementWidth,
+		elementHeight,
+	} = useMouseInElement(textbox);
+
+	const distanceX = computed(() => {
+		return (elementX.value / 10).toFixed(1);
+	});
+	const distanceY = computed(() => {
+		return (elementY.value / 8).toFixed(1);
+	});
+
+	const yToString = computed(() => {
+		return `${distanceY.value}px`;
+	});
 
 	const xToString = computed(() => {
-		return `${elementX.value}px`;
+		return `${distanceX.value}px`;
 	});
-	const yToString = computed(() => {
-		return `${elementY.value}px`;
-	});
+
+	// lagay if statement na kung lagpas na sa threshhold gawing static nalang pero yeah change nalang values kung
 </script>
 <style scoped>
 	.test {
-		position: absolute;
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
 		transition: all ease-in-out;
+		transition-duration: 50ms;
 	}
 </style>
