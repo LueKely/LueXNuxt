@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-	.btn {
-		@apply bg-pin w-[20vw] h-[10vh];
-	}
-}
