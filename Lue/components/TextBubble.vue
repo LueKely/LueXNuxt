@@ -11,10 +11,7 @@
 				class="w-[500px] h-[500px] bg-lime-300 flex items-center justify-center relative"
 			>
 				<!-- box -->
-				<div
-					ref="textbox"
-					class="bg-red-500 w-[400px] h-[400px] z-10 relative"
-				></div>
+				<div ref="textbox" class="bg-red-500 w-[400px] h-[400px] z-10"></div>
 				<!-- shadow -->
 				<div class="bg-neutral-800 w-[400px] h-[400px] absolute test z-0"></div>
 			</div>
@@ -23,13 +20,7 @@
 </template>
 <script setup lang="ts">
 	const textbox = ref(null);
-	const {
-		elementX,
-		elementY,
-
-		elementWidth,
-		elementHeight,
-	} = useMouseInElement(textbox);
+	const { elementX, elementY } = useMouseInElement(textbox);
 
 	const distanceX = computed(() => {
 		return (elementX.value / 10).toFixed(1);
