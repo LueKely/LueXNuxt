@@ -13,5 +13,9 @@
 		"@vueuse/nuxt": "^9.7.0",
 		"nuxt": "3.0.0",
 		"nuxt-icon": "^0.1.8"
+	},
+	"dependencies": {
+		"sass": "^1.57.1",
+		"vuetify": "^3.0.6"
 	}
 }

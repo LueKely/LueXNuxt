@@ -1,7 +1,5 @@
 <template>
 	<div class="w-screen h-screen flex items-center justify-center">
-		<!-- <NuxtWelcome /> -->
-
 		<!-- container -->
 		<div
 			class="w-50vw] h-[50vh] bg-neutral-400 flex items-center justify-start"
@@ -43,6 +41,6 @@
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
 		transition: all ease-in-out;
-		transition-duration: 50ms;
+		transition-duration: 80ms;
 	}
 </style>
