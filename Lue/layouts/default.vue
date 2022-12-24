@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-screen xl:h-[100vh] bg-neutral-50 dark:bg-neutral-900 xl:overflow-hidden"
+		class="w-screen min-h-screen bg-neutral-50 dark:bg-neutral-900 xl:overflow-hidden"
 	>
 		<!-- navbar -->
 		<div
@@ -10,7 +10,7 @@
 		</div>
 		<!-- main content -->
 		<div
-			class="w-fullflex flex-col item-center justify-center xl:h-[92vh] xl:flex-row"
+			class="w-full flex flex-col item-center justify-center xl:h-[92vh] xl:flex-row"
 		>
 			<!-- title -->
 			<div class="w-[100%] xl:w-[50%] p-10 flex items-center justify-center">
