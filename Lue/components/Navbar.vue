@@ -1,6 +1,7 @@
 <template>
-	<div class="w-full h-full p-3 flex items-center justify-center">
-		<h1 class="text-4xl m-auto" id="title">LUE</h1>
-		<div><v-switch></v-switch></div>
+	<div class="w-full h-full p-3 flex items-center justify-between">
+		<h1 class="text-4xl dark:text-neutral-50" id="title">LUE</h1>
+
+		<DarkModeSwitch></DarkModeSwitch>
 	</div>
 </template>

@@ -4,3 +4,10 @@
 body {
 	overflow: hidden;
 }
+.moveRight {
+	@apply translate-x-3;
+}
+
+.moveLeft {
+	@apply translate-x-[-12px];
+}
