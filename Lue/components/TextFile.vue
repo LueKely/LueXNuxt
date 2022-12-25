@@ -1,6 +1,6 @@
 <template>
 	<!-- container -->
-	<div class="h-[60vh] w-full bg-slate-600 flex items-center justify-center">
+	<div class="h-[60vh] w-full flex items-center justify-center">
 		<!-- actual app -->
 		<div
 			class="w-[85%] h-[70%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
@@ -21,11 +21,20 @@
 			<!-- typing contianer cringe -->
 			<div class="w-fit h-fit p-3">
 				<div>
-					<p class="font-mono dark:text-neutral-50 text-left">{{ word }}l</p>
+					<p class="font-mono dark:text-neutral-50 text-left">
+						{{ word
+						}}<span class="inline-block w-3 h-5">
+							<!-- type thingy kung nag tataype kung linee -->
+							<div class="flex items-end justify-start">
+								<div
+									class="w-[1px] h-4 translate-y-1 bg-neutral-900 dark:bg-neutral-50"
+								></div></div
+						></span>
+					</p>
 				</div>
 				<!-- static message -->
 				<div>
-					<p class="font-mono dark:text-neutral-50 text-left">
+					<p class="font-mono mt-3 dark:text-neutral-50 text-left">
 						Hey there! Welcome to my small project, i hope you enjoy it as much
 						as i did
 					</p>
@@ -41,8 +50,8 @@
 	let word = ref<string>('');
 	let arrGreet = ref<string[]>([]);
 	let index = ref<number>(0);
-	let welcome = ref<string>('Welcome... nah to boring ');
-	let Kamusta = ref<string>('Kamusta...? nah to cringe');
+	let welcome = ref<string>('Welcome... nah too boring ');
+	let Kamusta = ref<string>('Kamusta...? nah too cringe');
 	let wordWelcome = ref<string[]>(welcome.value.split(''));
 	let wordKamusta = ref<string[]>(Kamusta.value.split(''));
 
