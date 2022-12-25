@@ -19,7 +19,7 @@
 				></Icon>
 			</div>
 			<!-- typing contianer cringe -->
-			<div class="w-fit h-fit p-3">
+			<div class="w-[100%] h-[100%] p-3">
 				<div>
 					<p class="font-mono dark:text-neutral-50 text-left">
 						{{ word
@@ -40,7 +40,7 @@
 					</p>
 				</div>
 				<!-- button -->
-				<div></div>
+				<div class="w-[60%] h-10 bg-black"></div>
 			</div>
 		</div>
 	</div>
