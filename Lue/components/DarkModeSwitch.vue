@@ -1,3 +1,12 @@
+<script setup lang="ts">
+	const isDark = useDark();
+
+	const toggleDark = useToggle(isDark);
+
+	function clickNightSwitch() {
+		toggleDark();
+	}
+</script>
 <template>
 	<!-- container -->
 	<div class="flex items-center justify-center">
@@ -26,13 +35,5 @@
 		></Icon>
 	</div>
 </template>
-<script setup lang="ts">
-	const isDark = useDark();
 
-	const toggleDark = useToggle(isDark);
-
-	function clickNightSwitch() {
-		toggleDark();
-	}
-</script>
 <style scoped></style>

@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .moveRight {
-	@apply translate-x-3;
+	transform: translateX(12px);
 }
 
 .moveLeft {
-	@apply translate-x-[-12px];
+	transform: translateX(-12px);
 }
