@@ -30,6 +30,7 @@
 						as i did
 					</p>
 				</div>
+				<!-- button -->
 				<div></div>
 			</div>
 		</div>
@@ -40,93 +41,52 @@
 	let word = ref<string>('');
 	let arrGreet = ref<string[]>([]);
 	let index = ref<number>(0);
-	let wordWelcome = ref<string[]>([
-		'w',
-		'e',
-		'l',
-		'c',
-		'o',
-		'm',
-		'e',
-		'.',
-		'.',
-		'.',
-	]);
+	let welcome = ref<string>('Welcome... nah to boring ');
+	let Kamusta = ref<string>('Kamusta...? nah to cringe');
+	let wordWelcome = ref<string[]>(welcome.value.split(''));
+	let wordKamusta = ref<string[]>(Kamusta.value.split(''));
 
-	let wordKamusta = ref<string[]>([
-		'K',
-		'a',
-		'm',
-		'u',
-		's',
-		't',
-		'a',
-		'.',
-		'.',
-		'.',
-	]);
-
-	function addMuhWords() {
+	function addMuhWords(wordArr: string[]) {
 		// welcome
-		if (arrGreet.value.length != wordWelcome.value.length) {
+
+		if (arrGreet.value.length != wordArr.length) {
 			setTimeout(() => {
-				arrGreet.value.push(wordWelcome.value[index.value]);
+				arrGreet.value.push(wordArr[index.value]);
 				word.value = arrGreet.value.join('');
 				index.value++;
-				addMuhWords();
-			}, 100);
-		} else if (arrGreet.value.length == wordWelcome.value.length) {
-			setTimeout(() => delMuhWords(), 500);
-		} else return;
-	}
-	function addMuhWordsPart2() {
-		// welcome
-		if (arrGreet.value.length != wordKamusta.value.length) {
-			setTimeout(() => {
-				arrGreet.value.push(wordKamusta.value[index.value]);
-				word.value = arrGreet.value.join('');
-				index.value++;
-				addMuhWords();
-			}, 100);
-		} else if (arrGreet.value.length == wordKamusta.value.length) {
-			setTimeout(() => delMuhWordsPart2(), 500);
-		} else return;
-	}
-	function delMuhWords() {
-		// welcome
-		if (arrGreet.value.length != 0) {
-			setTimeout(() => {
-				arrGreet.value.pop();
-				word.value = arrGreet.value.join('');
-				index.value--;
-				delMuhWords();
+				addMuhWords(wordArr);
 			}, 100);
 		} else {
-			setTimeout(() => {
-				addMuhWordsPart2();
-				return;
-			}, 100);
+			setTimeout(() => delMuhWords(wordArr), 500);
 		}
 	}
-	function delMuhWordsPart2() {
+
+	function delMuhWords(wordArr: string[]) {
 		// welcome
 		if (arrGreet.value.length != 0) {
 			setTimeout(() => {
-				arrGreet.value.pop();
+				arrGreet.value.splice(index.value - 1, 1);
 				word.value = arrGreet.value.join('');
 				index.value--;
-				delMuhWordsPart2();
-			}, 100);
+				delMuhWords(wordArr);
+			}, 50);
 		} else {
-			setTimeout(() => {
-				addMuhWords();
-				return;
-			}, 100);
+			if (wordArr == wordKamusta.value) {
+				setTimeout(() => {
+					addMuhWords(wordWelcome.value);
+					return;
+				}, 100);
+			} else {
+				setTimeout(() => {
+					addMuhWords(wordKamusta.value);
+					return;
+				}, 100);
+			}
 		}
 	}
 
 	onMounted(() => {
-		addMuhWords();
+		addMuhWords(wordKamusta.value);
 	});
 </script>
 <style scoped>
