@@ -24,7 +24,12 @@
 			></div>
 		</div>
 		<Icon
-			class="dark:text-neutral-50 transition-all ease-in-out delay-150"
+			class="dark:hidden dark:text-neutral-50 transition-all ease-in-out delay-150"
+			size="2em"
+			name="line-md:sunny-outline-loop"
+		></Icon>
+		<Icon
+			class="hidden dark:block dark:text-neutral-50 transition-all ease-in-out delay-150"
 			size="2em"
 			:name="moon"
 		></Icon>
