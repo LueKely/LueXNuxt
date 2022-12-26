@@ -21,10 +21,10 @@
 	const { elementX, elementY } = useMouseInElement(textbox);
 
 	const distanceX = computed(() => {
-		return (elementX.value / 10).toFixed(1);
+		return (elementX.value / 5).toFixed(1);
 	});
 	const distanceY = computed(() => {
-		return (elementY.value / 8).toFixed(1);
+		return (elementY.value / 5).toFixed(1);
 	});
 
 	const yToString = computed(() => {
@@ -41,6 +41,6 @@
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
 		transition: all ease-in-out;
-		transition-duration: 80ms;
+		transition-duration: 100ms;
 	}
 </style>
