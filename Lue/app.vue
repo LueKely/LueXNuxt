@@ -4,7 +4,7 @@
 			<Navbar></Navbar>
 		</template>
 		<template v-slot:TextBubble>
-			<TextBubble></TextBubble>
+			<TextBubbleStyle></TextBubbleStyle>
 		</template>
 		<template v-slot:TxtFile>
 			<TextFile></TextFile>

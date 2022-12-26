@@ -41,9 +41,9 @@
 				</div>
 				<!-- button -->
 				<div
-					class="mx-auto mt-20 xl:mt-24 w-[60%] h-10 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
+					class="mx-auto mt-20 xl:mt-12 2xl:mt-24 w-[60%] h-10 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
 				>
-					<p class="font-['Spicy_Rice'] mr-1">Proceed to</p>
+					<p class="font-['Spicy_Rice'] mr-1 pointer-events-none">Proceed to</p>
 					<Icon size="1.75em" name="akar-icons:github-fill"></Icon>
 				</div>
 			</div>
