@@ -1,20 +1,19 @@
 <script setup lang="ts">
 	const isDark = useDark();
-
+	const moon = computed(() => {
+		return 'line-md:moon-rising-alt-loop';
+	});
 	const toggleDark = useToggle(isDark);
 
 	function clickNightSwitch() {
 		toggleDark();
 	}
 </script>
+<!-- 	name="line-md:moon-rising-alt-loop" -->
+<!-- 		name="line-md:sunny-outline-loop" -->
 <template>
 	<!-- container -->
 	<div class="flex items-center justify-center">
-		<Icon
-			class="dark:text-neutral-50 transition-all ease-in-out delay-150"
-			size="2em"
-			name="line-md:sunny-outline-loop"
-		></Icon>
 		<div class="h-10 w-16 relative flex items-center justify-center">
 			<div
 				class="transition-transform ease-in-out duration-100 w-11 h-5 border-[3px] border-neutral-900 rounded-full bg-neutral-100 dark:bg-neutral-900 dark:border-neutral-50"
@@ -27,7 +26,7 @@
 		<Icon
 			class="dark:text-neutral-50 transition-all ease-in-out delay-150"
 			size="2em"
-			name="line-md:moon-rising-alt-loop"
+			:name="moon"
 		></Icon>
 	</div>
 </template>

@@ -3,7 +3,7 @@
 	<div class="h-[60vh] w-full flex items-center justify-center">
 		<!-- actual app -->
 		<div
-			class="w-[85%] xl:w-[70%] h-[60%] xl:h-[100%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
+			class="w-[85%] xl:w-[70%] h-[60%] xl:h-[80%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
 		>
 			<!--top bar -->
 			<div
@@ -19,7 +19,7 @@
 				></Icon>
 			</div>
 			<!-- typing contianer cringe -->
-			<div class="w-[100%] h-[100%] p-3 xl:">
+			<div class="w-[100%] h-[100%] p-3">
 				<div>
 					<p class="xl:text-2xl font-mono dark:text-neutral-50 text-left">
 						{{ word
@@ -41,7 +41,7 @@
 				</div>
 				<!-- button -->
 				<div
-					class="mx-auto mt-12 w-[60%] h-10 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
+					class="mx-auto mt-20 xl:mt-24 w-[60%] h-10 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
 				>
 					<p class="font-['Spicy_Rice'] mr-1">Proceed to</p>
 					<Icon size="1.75em" name="akar-icons:github-fill"></Icon>
