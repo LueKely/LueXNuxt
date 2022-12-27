@@ -1,37 +1,37 @@
 <template>
 	<div
-		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center"
+		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center bg-green-100"
 	>
 		<!-- textBox -->
 		<div
-			class="h-[350px] w-full xl:w-[80%] relative flex flex-col items-center justify-center"
+			class="h-[350px] xl:h-[500px] w-full xl:w-[90%] relative flex flex-col items-center justify-center bg-orange-300"
 		>
 			<!-- welcome -->
 			<div
-				class="absolute top-5 left-5 w-[40%] h-[10%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
+				class="absolute xl:top-14 xl:left-[-2rem] top-5 left-5 w-[40%] h-[10%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
 			>
 				<h1
-					class="text-lg font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
+					class="text-lg xl:text-3xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
 				>
 					Welcome To...
 				</h1>
 			</div>
 
 			<div
-				class="w-[70%] h-[55%] z-30 absolute top-16 flex flex-col items-center justify-center"
+				class="w-[85%] h-[55%] z-30 absolute xl:top-32 top-16 flex flex-col items-center justify-center"
 			>
 				<h1
-					class="text-5xl font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+					class="text-5xl xl:text-8xl font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
 				>
 					LUE X NUXT
 				</h1>
 				<p
-					class="text-lg font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+					class="text-lg xl:text-2xl font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
 				>
 					A website powered by nuxt
 				</p>
 			</div>
-			<!-- textbox shape -->
+			<!-- textbox shape mobile view-->
 			<svg
 				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -66,6 +66,7 @@
 					</g>
 				</g>
 			</svg>
+			<!-- mobile view shadow -->
 			<svg
 				class="absolute z-10 xl:hidden stroke-neutral-900 dark:stroke-neutral-50 dark:fill-neutral-50 fill-neutral-900 bottom-8 right-5"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -104,7 +105,7 @@
 			<!-- desktop view class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50" -->
 			<svg
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50"
+				class="xl:top-14 absolute z-20 hidden xl:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
 				width="679"
 				xmlns="http://www.w3.org/2000/svg"
 				height="454"
@@ -128,12 +129,7 @@
 								rx="0"
 								ry="0"
 								d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
-								style="
-									fill: none;
-									stroke-width: 5;
-
-									stroke-opacity: 1;
-								"
+								style="stroke-width: 5; stroke-opacity: 1"
 							/>
 						</g>
 					</g>
