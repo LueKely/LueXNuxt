@@ -13,7 +13,7 @@
 			class="w-full flex flex-col item-center justify-center xl:h-[92vh] xl:flex-row"
 		>
 			<!-- title -->
-			<div class="w-[100%] xl:w-[50%] p-10 flex items-center justify-center">
+			<div class="w-[100%] xl:w-[50%] p-5 flex items-center justify-center">
 				<slot name="TextBubble"> Textbubble </slot>
 			</div>
 			<!-- txt file thingy -->
