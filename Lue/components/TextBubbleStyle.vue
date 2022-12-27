@@ -6,6 +6,14 @@
 		<div
 			class="h-[350px] xl:h-[500px] w-full xl:w-[90%] relative flex flex-col items-center justify-center bg-orange-300"
 		>
+			<div class="z-40">
+				<Icon
+					size="4em"
+					class="stroke-1"
+					name="mdi:star-four-points-outline"
+				></Icon>
+				<Icon size="2rem" name="mdi:star-four-points"></Icon>
+			</div>
 			<!-- welcome -->
 			<div
 				class="absolute xl:top-14 xl:left-[-2rem] top-5 left-5 w-[40%] h-[10%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
