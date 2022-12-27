@@ -1,40 +1,137 @@
 <template>
 	<div
-		class="h-[50vh] xl:h-full w-full bg-red-300 relative flex items-center justify-center"
+		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center"
 	>
 		<!-- textBox -->
 		<div
-			class="h-[90%] w-full xl:w-[80%] bg-neutral-50 relative flex flex-col items-center justify-center"
+			class="h-[350px] w-full xl:w-[80%] relative flex flex-col items-center justify-center"
 		>
+			<!-- welcome -->
+			<div
+				class="absolute top-5 left-5 w-[40%] h-[10%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
+			>
+				<h1
+					class="text-lg font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
+				>
+					Welcome To...
+				</h1>
+			</div>
+
+			<div
+				class="w-[70%] h-[55%] z-30 absolute top-16 flex flex-col items-center justify-center"
+			>
+				<h1
+					class="text-5xl font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+				>
+					LUE X NUXT
+				</h1>
+				<p
+					class="text-lg font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+				>
+					A website powered by nuxt
+				</p>
+			</div>
+			<!-- textbox shape -->
 			<svg
+				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="290"
+				width="293"
 				xmlns="http://www.w3.org/2000/svg"
-				height="273"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e"
-				viewBox="421 413 290 273"
+				height="276"
+				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9152fb485d"
+				viewBox="-2.5 -2.5 293 276"
 				style="-webkit-print-color-adjust: exact"
 				fill="none"
 				version="1.1"
 			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-					<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9152fb485d" rx="0" ry="0">
+					<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+						<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+							<path
+								rx="0"
+								ry="0"
+								d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
+							/>
+						</g>
+						<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+							<g class="stroke-shape">
+								<path
+									rx="0"
+									ry="0"
+									d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
+									style="stroke-width: 5; stroke-opacity: 1"
+								/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</svg>
+			<svg
+				class="absolute z-10 xl:hidden stroke-neutral-900 dark:stroke-neutral-50 dark:fill-neutral-50 fill-neutral-900 bottom-8 right-5"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				width="293"
+				xmlns="http://www.w3.org/2000/svg"
+				height="276"
+				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9152fb485d"
+				viewBox="-2.5 -2.5 293 276"
+				style="-webkit-print-color-adjust: exact"
+				fill="none"
+				version="1.1"
+			>
+				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9152fb485d" rx="0" ry="0">
+					<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+						<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+							<path
+								rx="0"
+								ry="0"
+								d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
+							/>
+						</g>
+						<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+							<g class="stroke-shape">
+								<path
+									rx="0"
+									ry="0"
+									d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
+									style="stroke-width: 5; stroke-opacity: 1"
+								/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</svg>
+
+			<!-- desktop view class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50" -->
+			<svg
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50"
+				width="679"
+				xmlns="http://www.w3.org/2000/svg"
+				height="454"
+				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d"
+				viewBox="-278.5 -22.5 679 454"
+				style="-webkit-print-color-adjust: exact"
+				fill="none"
+				version="1.1"
+			>
+				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+					<g id="fills-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
 						<path
 							rx="0"
 							ry="0"
-							d="M422,414L422,646L620,646L620,685L656,646L710,646L710,414L422,414Z"
+							d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
 						/>
 					</g>
-					<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+					<g id="strokes-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
 						<g class="stroke-shape">
 							<path
 								rx="0"
 								ry="0"
-								d="M422,414L422,646L620,646L620,685L656,646L710,646L710,414L422,414Z"
+								d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
 								style="
 									fill: none;
-									stroke-width: 2;
-									stroke: rgb(0, 0, 0);
+									stroke-width: 5;
+
 									stroke-opacity: 1;
 								"
 							/>
