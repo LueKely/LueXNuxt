@@ -225,10 +225,10 @@
 		>
 			<!-- welcome -->
 			<div
-				class="absolute xl:top-14 xl:left-[-1rem] 2xl:left-12 top-5 left-5 w-[40%] 2xl:w-[30%] h-[10%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
+				class="absolute xl:top-14 2xl:top-[3.2rem] xl:left-[-2rem] 2xl:left-20 top-5 left-5 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
 			>
 				<h1
-					class="text-lg xl:text-3xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
+					class="text-lg xl:text-3xl 2xl:text-4xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
 				>
 					Welcome To...
 				</h1>
@@ -323,6 +323,39 @@
 			<svg
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				class="xl:top-14 absolute z-20 hidden xl:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
+				width="679"
+				xmlns="http://www.w3.org/2000/svg"
+				height="454"
+				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d"
+				viewBox="-278.5 -22.5 679 454"
+				style="-webkit-print-color-adjust: exact"
+				fill="none"
+				version="1.1"
+			>
+				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+					<g id="fills-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+						<path
+							rx="0"
+							ry="0"
+							d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
+						/>
+					</g>
+					<g id="strokes-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+						<g class="stroke-shape">
+							<path
+								rx="0"
+								ry="0"
+								d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
+								style="stroke-width: 5; stroke-opacity: 1"
+							/>
+						</g>
+					</g>
+				</g>
+			</svg>
+			<!-- desktop shadow -->
+			<svg
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				class="xl:top-16 left-[-1rem] 2xl:left-auto 2xl:right-12 absolute z-10 hidden xl:block xl:scale-90 dark:fill-neutral-50 fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
 				width="679"
 				xmlns="http://www.w3.org/2000/svg"
 				height="454"
