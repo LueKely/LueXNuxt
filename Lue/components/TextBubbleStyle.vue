@@ -238,7 +238,7 @@
 				class="w-[85%] h-[55%] z-30 absolute xl:top-32 top-16 flex flex-col items-center justify-center"
 			>
 				<h1
-					class="text-5xl xl:text-8xl font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+					class="text-5xl xl:text-8xl 2xl:text-[113px] font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
 				>
 					LUE X NUXT
 				</h1>

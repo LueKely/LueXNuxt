@@ -3,7 +3,7 @@
 	<div class="h-[60vh] w-full flex items-center justify-center">
 		<!-- actual app -->
 		<div
-			class="w-[85%] xl:w-[70%] h-[60%] xl:h-[80%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
+			class="w-[85%] xl:w-[60%] h-[60%] xl:h-[90%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
 		>
 			<!--top bar -->
 			<div
@@ -21,31 +21,39 @@
 			<!-- typing contianer cringe -->
 			<div class="w-[100%] h-[100%] p-3">
 				<div>
-					<p class="xl:text-2xl font-mono dark:text-neutral-50 text-left">
+					<p
+						class="xl:text-2xl font-mono dark:text-neutral-50 text-left 2xl:text-4xl"
+					>
 						{{ word
-						}}<span class="inline-block w-3 h-5 xl:h-7">
+						}}<span class="inline-block w-3 h-5 xl:h-7 2xl:h-10">
 							<!-- type thingy kung nag tataype kung linee -->
 							<div class="flex items-end justify-start">
 								<div
-									class="w-[1px] h-4 xl:h-7 translate-y-1 xl:translate-y-[7px] bg-neutral-900 dark:bg-neutral-50"
+									class="w-[1px] h-4 xl:h-7 2xl:h-10 translate-y-1 xl:translate-y-[7px] bg-neutral-900 dark:bg-neutral-50"
 								></div></div
 						></span>
 					</p>
 				</div>
 				<!-- static message -->
 				<div>
-					<p class="xl:text-2xl font-mono mt-3 dark:text-neutral-50 text-left">
+					<p
+						class="xl:text-2xl 2xl:text-4xl font-mono mt-3 dark:text-neutral-50 text-left"
+					>
 						Hey there! Welcome to my small project, i hope you can enjoy it as
 						much as i did.
 					</p>
 				</div>
 				<!-- button -->
-				<div
-					class="mx-auto mt-20 xl:mt-12 2xl:mt-24 w-[60%] h-10 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
+				<a
+					href="https://github.com/LueKely/LueXNuxt"
+					target="_blank"
+					class="mx-auto mt-20 xl:mt-12 2xl:mt-24 w-[60%] 2xl:w-[50%] 2xl:h-[14%] h-10 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
 				>
-					<p class="font-['Spicy_Rice'] mr-1 pointer-events-none">Proceed to</p>
-					<Icon size="1.75em" name="akar-icons:github-fill"></Icon>
-				</div>
+					<p class="font-['Spicy_Rice'] mr-1 xl:text-3xl pointer-events-none">
+						Github &nbsp;
+					</p>
+					<Icon size="2em" name="akar-icons:github-fill"></Icon>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -55,8 +63,8 @@
 	let word = ref<string>('');
 	let arrGreet = ref<string[]>([]);
 	let index = ref<number>(0);
-	let welcome = ref<string>('Welcome... nah too boring ');
-	let Kamusta = ref<string>('Kamusta...? nah too cringe');
+	let welcome = ref<string>('Welcome... nah too boring');
+	let Kamusta = ref<string>('Kamusta... nah too cringe');
 	let wordWelcome = ref<string[]>(welcome.value.split(''));
 	let wordKamusta = ref<string[]>(Kamusta.value.split(''));
 
