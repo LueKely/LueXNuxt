@@ -4,7 +4,7 @@
 	>
 		<!-- star stop -->
 		<div
-			class="absolute z-40 self-start hidden xl:block 2xl:right-3 2xl:scale-100 scale-75"
+			class="absolute z-40 self-start hidden xl:block right-3 2xl:scale-100 scale-75"
 		>
 			<!-- base star -->
 			<svg
@@ -112,9 +112,7 @@
 		</div>
 
 		<!-- star bottom -->
-		<div
-			class="absolute z-40 self-end xl:block 2xl:left-5 2xl:scale-100 hidden"
-		>
+		<div class="absolute z-40 self-end xl:block left-5 2xl:scale-100 hidden">
 			<!-- smaller Star -->
 			<svg
 				class="stroke-neutral-900 dark:stroke-neutral-50 fill-neutral-900 dark:fill-neutral-50 ml-11"
