@@ -12,6 +12,8 @@
 				<div ref="textbox" class="bg-red-500 w-[400px] h-[400px] z-10"></div>
 				<!-- shadow -->
 				<div class="bg-neutral-800 w-[400px] h-[400px] absolute test z-0"></div>
+
+				<!-- <div>{{ distanceX }} {{ distanceY }}</div> -->
 			</div>
 		</div>
 	</div>
@@ -21,7 +23,10 @@
 	const { elementX, elementY } = useMouseInElement(textbox);
 
 	const distanceX = computed(() => {
-		return (elementX.value / 5).toFixed(1);
+		if (elementX.value / 5 <= 100) return (elementX.value / 5).toFixed(1);
+		else {
+			return 100;
+		}
 	});
 	const distanceY = computed(() => {
 		return (elementY.value / 5).toFixed(1);
@@ -40,7 +45,7 @@
 	.test {
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
-		transition: all ease-in-out;
+		transition: all ease;
 		transition-duration: 100ms;
 	}
 </style>
