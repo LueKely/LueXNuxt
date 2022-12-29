@@ -439,6 +439,6 @@
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
 		transition: all ease;
-		transition-duration: 150ms;
+		transition-duration: 100ms;
 	}
 </style>
