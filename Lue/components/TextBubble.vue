@@ -12,8 +12,6 @@
 				<div ref="textbox" class="bg-red-500 w-[400px] h-[400px] z-10"></div>
 				<!-- shadow -->
 				<div class="bg-neutral-800 w-[400px] h-[400px] absolute test z-0"></div>
-
-				<!-- <div>{{ distanceX }} {{ distanceY }}</div> -->
 			</div>
 		</div>
 	</div>
@@ -21,15 +19,27 @@
 <script setup lang="ts">
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
+	const { width, height } = useWindowSize();
 
 	const distanceX = computed(() => {
-		if (elementX.value / 5 <= 100) return (elementX.value / 5).toFixed(1);
-		else {
-			return 100;
+		if (width.value < 1200) {
+			return 0;
+		} else {
+			if (elementX.value / 5 <= 80 && elementX.value >= 0)
+				return (elementX.value / 5).toFixed(1);
+			else if (elementX.value < 15) return 15;
+			else {
+				return 80;
+			}
 		}
 	});
 	const distanceY = computed(() => {
-		return (elementY.value / 5).toFixed(1);
+		if (elementY.value / 5 <= 80 && elementY.value >= 0)
+			return (elementY.value / 5).toFixed(1);
+		else if (elementY.value < 15) return 15;
+		else {
+			return 80;
+		}
 	});
 
 	const yToString = computed(() => {
@@ -39,6 +49,7 @@
 	const xToString = computed(() => {
 		return `${distanceX.value}px`;
 	});
+
 	// lagay if statement na kung lagpas na sa threshhold gawing static nalang pero yeah change nalang values kung
 </script>
 <style scoped>
@@ -46,6 +57,6 @@
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
 		transition: all ease;
-		transition-duration: 100ms;
+		transition-duration: 150ms;
 	}
 </style>
