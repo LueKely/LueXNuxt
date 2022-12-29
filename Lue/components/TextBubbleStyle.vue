@@ -319,6 +319,7 @@
 
 			<!-- desktop view class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50" -->
 			<svg
+				ref="textbox"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				class="xl:top-14 absolute z-20 hidden xl:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
 				width="679"
@@ -353,7 +354,7 @@
 			<!-- desktop shadow -->
 			<svg
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				class="xl:top-16 left-[-1rem] 2xl:left-auto 2xl:right-12 absolute z-10 hidden xl:block xl:scale-90 dark:fill-neutral-50 fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
+				class="test absolute z-10 hidden xl:block xl:scale-90 dark:fill-neutral-50 fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
 				width="679"
 				xmlns="http://www.w3.org/2000/svg"
 				height="454"
@@ -387,6 +388,57 @@
 	</div>
 </template>
 <script setup lang="ts">
+	const textbox = ref(null);
+	const { elementX, elementY } = useMouseInElement(textbox);
+	const { width, height } = useWindowSize();
+	watch(elementY, () => {
+		console.log(elementY.value / 12);
+	});
+
+	const distanceX = computed(() => {
+		// if (width.value < 1200) {
+		// 	return 0;
+		// } else {
+		// 	if (elementX.value / 5 <= 120 && elementX.value >= 0) {
+		// 		return (elementX.value / 5).toFixed(1);
+		// 	} else if (elementX.value < 20) return -2;
+		// 	else {
+		// 		return 120;
+		// 	}
+		// }
+		if (elementX.value / 5 <= 10) {
+			return 50;
+		} else if (elementX.value / 5 >= 90) {
+			return 90;
+		} else {
+			return (elementX.value / 5).toFixed(1);
+		}
+	});
+	const distanceY = computed(() => {
+		// if (elementY.value / 5 <= 50 && elementY.value >= 0) {
+		// 	return (elementY.value / 5).toFixed(1);
+		// } else if (elementY.value < 50) return -50;
+		// else {
+		// 	return 50;
+		// }
+
+		return (elementY.value / 12).toFixed(1);
+	});
+
+	const yToString = computed(() => {
+		return `${distanceY.value}px`;
+	});
+
+	const xToString = computed(() => {
+		return `${distanceX.value}px`;
+	});
 	// lagay if statement na kung lagpas na sa threshhold gawing static nalang pero yeah change nalang values kung
 </script>
-<style scoped></style>
+<style scoped>
+	.test {
+		right: v-bind('xToString');
+		bottom: v-bind('yToString');
+		transition: all ease;
+		transition-duration: 150ms;
+	}
+</style>
