@@ -391,38 +391,29 @@
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
 	const { width, height } = useWindowSize();
-	watch(elementY, () => {
-		console.log(elementY.value / 12);
+	watch(elementX, () => {
+		console.log(elementX.value / 5);
 	});
 
 	const distanceX = computed(() => {
-		// if (width.value < 1200) {
-		// 	return 0;
-		// } else {
-		// 	if (elementX.value / 5 <= 120 && elementX.value >= 0) {
-		// 		return (elementX.value / 5).toFixed(1);
-		// 	} else if (elementX.value < 20) return -2;
-		// 	else {
-		// 		return 120;
-		// 	}
-		// }
-		if (elementX.value / 5 <= 10) {
-			return 50;
-		} else if (elementX.value / 5 >= 90) {
-			return 90;
+		if (width.value > 1400) {
+			if (elementX.value / 5 <= 22) {
+				return 50;
+			} else if (elementX.value / 5 >= 90) {
+				return 90;
+			} else {
+				return (elementX.value / 5).toFixed(1);
+			}
 		} else {
-			return (elementX.value / 5).toFixed(1);
+			return -60;
 		}
 	});
 	const distanceY = computed(() => {
-		// if (elementY.value / 5 <= 50 && elementY.value >= 0) {
-		// 	return (elementY.value / 5).toFixed(1);
-		// } else if (elementY.value < 50) return -50;
-		// else {
-		// 	return 50;
-		// }
-
-		return (elementY.value / 12).toFixed(1);
+		if (height.value > 900) {
+			return (elementY.value / 11).toFixed(1);
+		} else {
+			return -20;
+		}
 	});
 
 	const yToString = computed(() => {
@@ -432,7 +423,6 @@
 	const xToString = computed(() => {
 		return `${distanceX.value}px`;
 	});
-	// lagay if statement na kung lagpas na sa threshhold gawing static nalang pero yeah change nalang values kung
 </script>
 <style scoped>
 	.test {
