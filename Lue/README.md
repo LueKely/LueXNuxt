@@ -1,42 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Lue X Nuxt
+- Made a fun and quick site to test out and learn more about the Nuxt environment
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Tools:
+Here are the tools I used:
+- ![Nuxt.js](https://nuxt.com)
+- ![Tailwind Css](https://tailwindcss.com/)
+- ![Icons](https://github.com/nuxt-modules/icon)
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## After Thoughts:
+It was very fun making this one. At first it was very confusing considering Nuxt 3 is new and stuff, but hey i made it!! 
+Nuxt is a very intriging framework and i am all for it!
