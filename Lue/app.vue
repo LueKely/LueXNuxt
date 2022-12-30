@@ -1,8 +1,8 @@
 <template>
-	<!-- <Head>
+	<Head>
 		<Title>Lue X Nuxt</Title>
 		<Link rel="icon" type="image/x-icon" href="/favicon.ico"></Link>
-	</Head> -->
+	</Head>
 	<NuxtLayout>
 		<template v-slot:navbarslot>
 			<Navbar></Navbar>
