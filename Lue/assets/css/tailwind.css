@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.moveRight {
+	transform: translateX(12px);
+}
+
+.moveLeft {
+	transform: translateX(-12px);
+}

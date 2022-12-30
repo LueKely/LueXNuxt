@@ -1,7 +1,5 @@
 <template>
 	<div class="w-screen h-screen flex items-center justify-center">
-		<!-- <NuxtWelcome /> -->
-
 		<!-- container -->
 		<div
 			class="w-50vw] h-[50vh] bg-neutral-400 flex items-center justify-start"
@@ -21,12 +19,27 @@
 <script setup lang="ts">
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
+	const { width, height } = useWindowSize();
 
 	const distanceX = computed(() => {
-		return (elementX.value / 10).toFixed(1);
+		if (width.value < 1200) {
+			return 0;
+		} else {
+			if (elementX.value / 5 <= 80 && elementX.value >= 0)
+				return (elementX.value / 5).toFixed(1);
+			else if (elementX.value < 15) return 15;
+			else {
+				return 80;
+			}
+		}
 	});
 	const distanceY = computed(() => {
-		return (elementY.value / 8).toFixed(1);
+		if (elementY.value / 5 <= 80 && elementY.value >= 0)
+			return (elementY.value / 5).toFixed(1);
+		else if (elementY.value < 15) return 15;
+		else {
+			return 80;
+		}
 	});
 
 	const yToString = computed(() => {
@@ -36,13 +49,14 @@
 	const xToString = computed(() => {
 		return `${distanceX.value}px`;
 	});
+
 	// lagay if statement na kung lagpas na sa threshhold gawing static nalang pero yeah change nalang values kung
 </script>
 <style scoped>
 	.test {
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
-		transition: all ease-in-out;
-		transition-duration: 50ms;
+		transition: all ease;
+		transition-duration: 150ms;
 	}
 </style>
