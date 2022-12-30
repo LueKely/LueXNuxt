@@ -25,13 +25,11 @@
 						class="xl:text-2xl font-mono dark:text-neutral-50 text-left 2xl:text-4xl"
 					>
 						{{ word
-						}}<span class="inline-block w-3 h-5 xl:h-7 2xl:h-10">
+						}}<span
+							class="inline-block w-[1px] h-5 xl:h-7 2xl:h-10 translate-y-1 xl:translate-y-[7px] bg-neutral-900 dark:bg-neutral-50"
+						>
 							<!-- type thingy kung nag tataype kung linee -->
-							<div class="flex items-end justify-start">
-								<div
-									class="w-[1px] h-4 xl:h-7 2xl:h-10 translate-y-1 xl:translate-y-[7px] bg-neutral-900 dark:bg-neutral-50"
-								></div></div
-						></span>
+						</span>
 					</p>
 				</div>
 				<!-- static message -->
