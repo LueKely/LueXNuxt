@@ -3,7 +3,7 @@
 	<div class="h-[60vh] w-full flex xl:items-center items-start justify-center">
 		<!-- actual app -->
 		<div
-			class="w-[85%] xl:w-[60%] h-[60%] xl:h-[90%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
+			class="w-[85%] xl:w-[60%] h-[65%] xl:h-[90%] border-[3px] border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-50 shadow-[15px_19px_0px_0px_rgba(28,25,23,1)] dark:shadow-[15px_19px_0px_0px_rgba(249,250,251,1)]"
 		>
 			<!--top bar -->
 			<div
@@ -22,7 +22,7 @@
 			<div class="w-[100%] h-[100%] p-3">
 				<div>
 					<p
-						class="text-lg xl:text-2xl font-mono dark:text-neutral-50 text-left 2xl:text-4xl"
+						class="xl:text-2xl font-mono dark:text-neutral-50 text-left 2xl:text-4xl"
 					>
 						{{ word
 						}}<span class="inline-block w-3 h-5 xl:h-7 2xl:h-10">
@@ -37,7 +37,7 @@
 				<!-- static message -->
 				<div>
 					<p
-						class="text-lg xl:text-2xl 2xl:text-4xl font-mono mt-3 dark:text-neutral-50 text-left"
+						class="xl:text-2xl 2xl:text-4xl font-mono mt-3 dark:text-neutral-50 text-left"
 					>
 						Hey there! Welcome to my small project, i hope you can enjoy it as
 						much as i did.
@@ -47,7 +47,7 @@
 				<a
 					href="https://github.com/LueKely/LueXNuxt"
 					target="_blank"
-					class="mx-auto mt-10 2xl:mt-24 w-[60%] 2xl:w-[50%] 2xl:h-[14%] h-12 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
+					class="mx-auto mt-3 2xl:mt-24 w-[60%] 2xl:w-[50%] 2xl:h-[14%] h-12 bg-neutral-900 hover:text-neutral-900 hover:bg-neutral-50 hover:border-neutral-900 border-[2px] text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(250,250,250,1)]"
 				>
 					<p class="font-['Spicy_Rice'] mr-1 xl:text-3xl pointer-events-none">
 						Github &nbsp;

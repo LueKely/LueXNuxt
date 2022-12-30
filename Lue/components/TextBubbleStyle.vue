@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center"
+		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
 	>
 		<!-- star stop -->
 		<div
@@ -223,7 +223,7 @@
 		>
 			<!-- welcome -->
 			<div
-				class="absolute xl:top-14 2xl:top-[3.2rem] xl:left-[-2rem] 2xl:left-20 top-5 left-5 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
+				class="absolute xl:top-14 2xl:top-[3.2rem] xl:left-[-2rem] 2xl:left-20 top-5 left-2 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
 			>
 				<h1
 					class="text-lg xl:text-3xl 2xl:text-4xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
