@@ -390,10 +390,7 @@
 <script setup lang="ts">
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
-	const { width, height } = useWindowSize();
-	watch(elementX, () => {
-		console.log(elementX.value / 5);
-	});
+	const { width } = useWindowSize();
 
 	const distanceX = computed(() => {
 		if (width.value > 1400) {
