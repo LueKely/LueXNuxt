@@ -409,11 +409,7 @@
 		}
 	});
 	const distanceY = computed(() => {
-		if (height.value > 800) {
-			return (elementY.value / 11).toFixed(1);
-		} else {
-			return -20;
-		}
+		return (elementY.value / 11).toFixed(1);
 	});
 
 	const yToString = computed(() => {
