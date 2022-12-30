@@ -9,8 +9,7 @@
 		toggleDark();
 	}
 </script>
-<!-- 	name="line-md:moon-rising-alt-loop" -->
-<!-- 		name="line-md:sunny-outline-loop" -->
+
 <template>
 	<!-- container -->
 	<div class="flex items-center justify-center">
