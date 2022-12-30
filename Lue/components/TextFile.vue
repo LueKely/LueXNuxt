@@ -63,8 +63,8 @@
 	let word = ref<string>('');
 	let arrGreet = ref<string[]>([]);
 	let index = ref<number>(0);
-	let welcome = ref<string>('Welcome... nah too boring');
-	let Kamusta = ref<string>('Kamusta... nah too cringe');
+	let welcome = ref<string>('Welcome...nah too boring');
+	let Kamusta = ref<string>('Kamusta...nah too cringe');
 	let wordWelcome = ref<string[]>(welcome.value.split(''));
 	let wordKamusta = ref<string[]>(Kamusta.value.split(''));
 
