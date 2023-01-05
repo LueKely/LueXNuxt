@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-screen min-h-screen bg-bajaGreen dark:bg-neutral-900 bg-hero-pattern dark:bg-hero-pattern-dark xl:overflow-hidden"
+		class="w-screen min-h-screen bg-yellow-300 dark:bg-neutral-900 bg-hero-pattern dark:bg-hero-pattern-dark xl:overflow-hidden"
 	>
 		<!-- navbar -->
 		<div
