@@ -33,68 +33,62 @@
 			</div>
 			<!-- textbox shape mobile view-->
 			<svg
-				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
+				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="293"
+				width="311"
 				xmlns="http://www.w3.org/2000/svg"
-				height="276"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9152fb485d"
-				viewBox="-2.5 -2.5 293 276"
+				height="202"
+				id="screenshot-a8540284-2a81-808f-8001-dbb291516702"
+				viewBox="-5 -5 311 202"
 				style="-webkit-print-color-adjust: exact"
 				fill="none"
 				version="1.1"
 			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9152fb485d" rx="0" ry="0">
-					<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-						<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-							<path
-								rx="0"
-								ry="0"
-								d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
-							/>
-						</g>
-						<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-							<g class="stroke-shape">
+				<g
+					id="shape-a8540284-2a81-808f-8001-dbb291516702"
+					rx="0"
+					ry="0"
+					style="fill-opacity: 1"
+				>
+					<g
+						id="shape-a8540284-2a81-808f-8001-dbb291516703"
+						rx="0"
+						ry="0"
+						style="fill: rgb(255, 255, 255); fill-opacity: 1"
+					>
+						<!-- shadow path -->
+						<g id="shape-a8540284-2a81-808f-8001-dbb291516705">
+							<g id="fills-a8540284-2a81-808f-8001-dbb291516705">
 								<path
 									rx="0"
 									ry="0"
-									d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
-									style="stroke-width: 5; stroke-opacity: 1"
+									d="M18,13C18,7.481,22.481,3,28,3L291,3C296.519,3,301,7.481,301,13L301,148C301,153.519,296.519,158,291,158L245,158L214.167,188.833C212.419,190.581,209.581,190.581,207.833,188.833L177,158L28,158C22.481,158,18,153.519,18,148L18,13Z"
+									class="fill-neutral-900 stroke-neutral-900 dark:fill-yellow-300 dark:stroke-yellow-300"
+									style="fill: rgb(0, 0, 0); fill-opacity: 1"
 								/>
 							</g>
 						</g>
 					</g>
-				</g>
-			</svg>
-			<!-- mobile view shadow -->
-			<svg
-				class="absolute z-10 xl:hidden stroke-neutral-900 dark:stroke-neutral-50 dark:fill-neutral-50 fill-neutral-900 bottom-8 right-5"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="293"
-				xmlns="http://www.w3.org/2000/svg"
-				height="276"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9152fb485d"
-				viewBox="-2.5 -2.5 293 276"
-				style="-webkit-print-color-adjust: exact"
-				fill="none"
-				version="1.1"
-			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9152fb485d" rx="0" ry="0">
-					<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-						<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+					<g id="shape-a8540284-2a81-808f-8001-dbb291516704">
+						<g id="fills-a8540284-2a81-808f-8001-dbb291516704">
 							<path
 								rx="0"
 								ry="0"
-								d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
+								d="M0,10C0,4.481,4.481,0,10,0L273,0C278.519,0,283,4.481,283,10L283,145C283,150.519,278.519,155,273,155L227,155L196.167,185.833C194.419,187.581,191.581,187.581,189.833,185.833L159,155L10,155C4.481,155,0,150.519,0,145L0,10Z"
+								style="fill-opacity: 1"
 							/>
 						</g>
-						<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+						<g id="strokes-a8540284-2a81-808f-8001-dbb291516704">
 							<g class="stroke-shape">
 								<path
 									rx="0"
 									ry="0"
-									d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
-									style="stroke-width: 5; stroke-opacity: 1"
+									d="M0,10C0,4.481,4.481,0,10,0L273,0C278.519,0,283,4.481,283,10L283,145C283,150.519,278.519,155,273,155L227,155L196.167,185.833C194.419,187.581,191.581,187.581,189.833,185.833L159,155L10,155C4.481,155,0,150.519,0,145L0,10Z"
+									style="
+										stroke-width: 10;
+
+										stroke-opacity: 1;
+									"
 								/>
 							</g>
 						</g>
