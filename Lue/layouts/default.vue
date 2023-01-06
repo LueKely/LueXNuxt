@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-screen min-h-screen bg-yellow-300 dark:bg-neutral-900 bg-hero-pattern dark:bg-hero-pattern-dark xl:overflow-hidden"
+		class="w-screen min-h-screen bg-yellow-300 dark:bg-neutral-900 xl:overflow-hidden"
 	>
 		<!-- navbar -->
 		<div
@@ -10,7 +10,7 @@
 		</div>
 		<!-- main content -->
 		<div
-			class="w-full flex flex-col item-center justify-center xl:h-[92vh] xl:flex-row"
+			class="w-full flex flex-col item-center bg-auto bg-hero-pattern dark:bg-hero-pattern-dark justify-center xl:h-[92vh] xl:flex-row"
 		>
 			<!-- title -->
 			<div class="w-[100%] xl:w-[50%] p-5 flex items-center justify-center">
