@@ -8,7 +8,7 @@
 		>
 			<!-- welcome -->
 			<div
-				class="absolute xl:top-14 2xl:top-[3.2rem] xl:left-[-2rem] 2xl:left-16 top-5 left-0 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
+				class="absolute xl:top-14 2xl:top-[3.2rem] xl:left-[-2rem] 2xl:left-16 top-16 left-0 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
 			>
 				<h1
 					class="text-lg xl:text-3xl 2xl:text-4xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
@@ -18,7 +18,7 @@
 			</div>
 
 			<div
-				class="w-[85%] h-[55%] z-30 absolute xl:top-32 2xl:top-36 top-16 flex flex-col items-center justify-center"
+				class="w-[85%] h-[55%] z-30 absolute xl:top-32 2xl:top-36 top-16 left-5 xl:0 flex flex-col items-center justify-center"
 			>
 				<h1
 					class="text-5xl xl:text-8xl 2xl:text-[113px] font-['Spicy_Rice'] dark:text-yellow-300 text-neutral-900"
