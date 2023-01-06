@@ -2,6 +2,7 @@
 
 [] adjust mobile view
 [] adjust tablet view
+[] add a basis container for the text file to be contained in
 
 # Pagisipan
 
