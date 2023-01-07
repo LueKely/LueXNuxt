@@ -138,7 +138,7 @@
 
 			<!-- desktop shadow -->
 			<svg
-				class="test absolute z-10 hidden xl:block dark:fill-yellow-300 fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 xl:scale-95"
+				class="test absolute z-10 hidden xl:block dark:fill-yellow-300 fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 xl:scale-[0.85] 2xl:scale-95"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				width="801"
 				xmlns="http://www.w3.org/2000/svg"
