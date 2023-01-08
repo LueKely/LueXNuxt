@@ -1,229 +1,14 @@
 <template>
 	<div
-		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
+		class="md:mt-12 h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
 	>
-		<!-- star stop -->
-		<div
-			class="absolute z-40 self-start hidden xl:block right-3 2xl:scale-100 scale-75"
-		>
-			<!-- base star -->
-			<svg
-				class="stroke-neutral-900 dark:stroke-neutral-50 ml-3"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="55"
-				xmlns="http://www.w3.org/2000/svg"
-				height="56"
-				id="screenshot-6be1aef0-4640-8043-8001-d0ddbcc5b2e9"
-				viewBox="-25 722 55 56"
-				style="-webkit-print-color-adjust: exact"
-				fill="none"
-				version="1.1"
-			>
-				<g id="shape-6be1aef0-4640-8043-8001-d0ddbcc5b2e9">
-					<g id="fills-6be1aef0-4640-8043-8001-d0ddbcc5b2e9">
-						<path
-							rx="0"
-							ry="0"
-							d="M-5.057,741.744C3.664,732.268,3.664,722,3.664,722C3.664,722,3.664,732.45,12.403,741.744C19.816,749.627,30,749.241,30,749.241C30,749.241,20.316,749.241,12.403,758.506C3.764,768.619,3.664,778,3.664,778C3.664,778,3.664,768.736,-5.057,758.506C-12.89,749.317,-25,749.241,-25,749.241C-25,749.241,-12.296,749.609,-5.057,741.744Z"
-						/>
-					</g>
-					<g id="strokes-6be1aef0-4640-8043-8001-d0ddbcc5b2e9">
-						<g class="inner-stroke-shape">
-							<defs>
-								<clipPath
-									id="inner-stroke-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-								>
-									<use
-										href="#stroke-shape-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-									/>
-								</clipPath>
-								<path
-									rx="0"
-									ry="0"
-									d="M-5.057,741.744C3.664,732.268,3.664,722,3.664,722C3.664,722,3.664,732.45,12.403,741.744C19.816,749.627,30,749.241,30,749.241C30,749.241,20.316,749.241,12.403,758.506C3.764,768.619,3.664,778,3.664,778C3.664,778,3.664,768.736,-5.057,758.506C-12.89,749.317,-25,749.241,-25,749.241C-25,749.241,-12.296,749.609,-5.057,741.744Z"
-									id="stroke-shape-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-									style="
-										fill: none;
-										stroke-width: 4;
-
-										stroke-opacity: 1;
-									"
-								/>
-							</defs>
-							<use
-								href="#stroke-shape-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-								clip-path="url('#inner-stroke-8a0e4a79-38f2-8024-8001-d0e08055d249--0')"
-							/>
-						</g>
-					</g>
-				</g>
-			</svg>
-			<!-- smaller Star -->
-			<svg
-				class="stroke-neutral-900 dark:stroke-neutral-50 fill-neutral-900 dark:fill-neutral-50"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="28"
-				xmlns="http://www.w3.org/2000/svg"
-				height="29"
-				id="screenshot-6be1aef0-4640-8043-8001-d0dd55347af0"
-				viewBox="64 778 28 29"
-				style="-webkit-print-color-adjust: exact"
-				fill="none"
-				version="1.1"
-			>
-				<g id="shape-6be1aef0-4640-8043-8001-d0dd55347af0">
-					<g id="fills-6be1aef0-4640-8043-8001-d0dd55347af0">
-						<path
-							rx="0"
-							ry="0"
-							d="M74.153,788.224C78.592,783.317,78.592,778,78.592,778C78.592,778,78.592,783.411,83.041,788.224C86.815,792.307,92,792.107,92,792.107C92,792.107,87.07,792.107,83.041,796.905C78.644,802.142,78.592,807,78.592,807C78.592,807,78.592,802.203,74.153,796.905C70.165,792.146,64,792.107,64,792.107C64,792.107,70.468,792.298,74.153,788.224Z"
-						/>
-					</g>
-					<g id="strokes-6be1aef0-4640-8043-8001-d0dd55347af0">
-						<g class="inner-stroke-shape">
-							<defs>
-								<clipPath
-									id="inner-stroke-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-								>
-									<use
-										href="#stroke-shape-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-									/>
-								</clipPath>
-								<path
-									rx="0"
-									ry="0"
-									d="M74.153,788.224C78.592,783.317,78.592,778,78.592,778C78.592,778,78.592,783.411,83.041,788.224C86.815,792.307,92,792.107,92,792.107C92,792.107,87.07,792.107,83.041,796.905C78.644,802.142,78.592,807,78.592,807C78.592,807,78.592,802.203,74.153,796.905C70.165,792.146,64,792.107,64,792.107C64,792.107,70.468,792.298,74.153,788.224Z"
-									id="stroke-shape-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-									style="
-										stroke-width: 4;
-
-										stroke-opacity: 1;
-									"
-								/>
-							</defs>
-							<use
-								href="#stroke-shape-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-								clip-path="url('#inner-stroke-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0')"
-							/>
-						</g>
-					</g>
-				</g>
-			</svg>
-		</div>
-
-		<!-- star bottom -->
-		<div class="absolute z-40 self-end xl:block left-5 2xl:scale-100 hidden">
-			<!-- smaller Star -->
-			<svg
-				class="stroke-neutral-900 dark:stroke-neutral-50 fill-neutral-900 dark:fill-neutral-50 ml-11"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="28"
-				xmlns="http://www.w3.org/2000/svg"
-				height="29"
-				id="screenshot-6be1aef0-4640-8043-8001-d0dd55347af0"
-				viewBox="64 778 28 29"
-				style="-webkit-print-color-adjust: exact"
-				fill="none"
-				version="1.1"
-			>
-				<g id="shape-6be1aef0-4640-8043-8001-d0dd55347af0">
-					<g id="fills-6be1aef0-4640-8043-8001-d0dd55347af0">
-						<path
-							rx="0"
-							ry="0"
-							d="M74.153,788.224C78.592,783.317,78.592,778,78.592,778C78.592,778,78.592,783.411,83.041,788.224C86.815,792.307,92,792.107,92,792.107C92,792.107,87.07,792.107,83.041,796.905C78.644,802.142,78.592,807,78.592,807C78.592,807,78.592,802.203,74.153,796.905C70.165,792.146,64,792.107,64,792.107C64,792.107,70.468,792.298,74.153,788.224Z"
-						/>
-					</g>
-					<g id="strokes-6be1aef0-4640-8043-8001-d0dd55347af0">
-						<g class="inner-stroke-shape">
-							<defs>
-								<clipPath
-									id="inner-stroke-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-								>
-									<use
-										href="#stroke-shape-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-									/>
-								</clipPath>
-								<path
-									rx="0"
-									ry="0"
-									d="M74.153,788.224C78.592,783.317,78.592,778,78.592,778C78.592,778,78.592,783.411,83.041,788.224C86.815,792.307,92,792.107,92,792.107C92,792.107,87.07,792.107,83.041,796.905C78.644,802.142,78.592,807,78.592,807C78.592,807,78.592,802.203,74.153,796.905C70.165,792.146,64,792.107,64,792.107C64,792.107,70.468,792.298,74.153,788.224Z"
-									id="stroke-shape-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-									style="
-										stroke-width: 4;
-
-										stroke-opacity: 1;
-									"
-								/>
-							</defs>
-							<use
-								href="#stroke-shape-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0"
-								clip-path="url('#inner-stroke-413cf7d8-6ed3-801f-8001-d0e0da1cdf4d--0')"
-							/>
-						</g>
-					</g>
-				</g>
-			</svg>
-			<!-- base star -->
-			<svg
-				class="stroke-neutral-900 dark:stroke-neutral-50"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="55"
-				xmlns="http://www.w3.org/2000/svg"
-				height="56"
-				id="screenshot-6be1aef0-4640-8043-8001-d0ddbcc5b2e9"
-				viewBox="-25 722 55 56"
-				style="-webkit-print-color-adjust: exact"
-				fill="none"
-				version="1.1"
-			>
-				<g id="shape-6be1aef0-4640-8043-8001-d0ddbcc5b2e9">
-					<g id="fills-6be1aef0-4640-8043-8001-d0ddbcc5b2e9">
-						<path
-							rx="0"
-							ry="0"
-							d="M-5.057,741.744C3.664,732.268,3.664,722,3.664,722C3.664,722,3.664,732.45,12.403,741.744C19.816,749.627,30,749.241,30,749.241C30,749.241,20.316,749.241,12.403,758.506C3.764,768.619,3.664,778,3.664,778C3.664,778,3.664,768.736,-5.057,758.506C-12.89,749.317,-25,749.241,-25,749.241C-25,749.241,-12.296,749.609,-5.057,741.744Z"
-						/>
-					</g>
-					<g id="strokes-6be1aef0-4640-8043-8001-d0ddbcc5b2e9">
-						<g class="inner-stroke-shape">
-							<defs>
-								<clipPath
-									id="inner-stroke-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-								>
-									<use
-										href="#stroke-shape-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-									/>
-								</clipPath>
-								<path
-									rx="0"
-									ry="0"
-									d="M-5.057,741.744C3.664,732.268,3.664,722,3.664,722C3.664,722,3.664,732.45,12.403,741.744C19.816,749.627,30,749.241,30,749.241C30,749.241,20.316,749.241,12.403,758.506C3.764,768.619,3.664,778,3.664,778C3.664,778,3.664,768.736,-5.057,758.506C-12.89,749.317,-25,749.241,-25,749.241C-25,749.241,-12.296,749.609,-5.057,741.744Z"
-									id="stroke-shape-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-									style="
-										fill: none;
-										stroke-width: 4;
-
-										stroke-opacity: 1;
-									"
-								/>
-							</defs>
-							<use
-								href="#stroke-shape-8a0e4a79-38f2-8024-8001-d0e08055d249--0"
-								clip-path="url('#inner-stroke-8a0e4a79-38f2-8024-8001-d0e08055d249--0')"
-							/>
-						</g>
-					</g>
-				</g>
-			</svg>
-		</div>
 		<!-- textBox -->
 		<div
 			class="h-[350px] xl:h-[500px] w-full xl:w-[90%] relative flex flex-col items-center justify-center"
 		>
 			<!-- welcome -->
 			<div
-				class="absolute xl:top-14 2xl:top-[3.2rem] xl:left-[-2rem] 2xl:left-20 top-5 left-0 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-black z-30 dark:bg-neutral-50 flex items-center justify-center"
+				class="min-w-[150px] absolute md:top-[-0.85rem] xl:top-1 2xl:top-[-1.5rem] md:left-28 xl:left-[-2.5rem] 2xl:left-5 top-16 left-0 w-[40%] md:w-[20%] xl:w-[35%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
 			>
 				<h1
 					class="text-lg xl:text-3xl 2xl:text-4xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
@@ -233,83 +18,77 @@
 			</div>
 
 			<div
-				class="w-[85%] h-[55%] z-30 absolute xl:top-32 top-16 flex flex-col items-center justify-center"
+				class="w-[85%] h-[55%] z-30 absolute xl:top-24 2xl:top-20 top-16 left-5 md:left-20 xl:left-16 flex flex-col items-center justify-center"
 			>
 				<h1
-					class="text-5xl xl:text-8xl 2xl:text-[113px] font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+					class="text-5xl md:text-7xl xl:text-8xl 2xl:text-[113px] font-['Spicy_Rice'] dark:text-yellow-300 text-neutral-900"
 				>
 					LUE X NUXT
 				</h1>
 				<p
-					class="text-lg xl:text-2xl font-['Spicy_Rice'] dark:text-neutral-50 text-neutral-900"
+					class="text-lg xl:text-2xl font-['Spicy_Rice'] dark:text-yellow-300 text-neutral-900"
 				>
 					A website powered by nuxt
 				</p>
 			</div>
 			<!-- textbox shape mobile view-->
 			<svg
-				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
+				class="absolute z-20 md:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="293"
+				width="311"
 				xmlns="http://www.w3.org/2000/svg"
-				height="276"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9152fb485d"
-				viewBox="-2.5 -2.5 293 276"
+				height="202"
+				id="screenshot-a8540284-2a81-808f-8001-dbb291516702"
+				viewBox="-5 -5 311 202"
 				style="-webkit-print-color-adjust: exact"
 				fill="none"
 				version="1.1"
 			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9152fb485d" rx="0" ry="0">
-					<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-						<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-							<path
-								rx="0"
-								ry="0"
-								d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
-							/>
-						</g>
-						<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-							<g class="stroke-shape">
+				<g
+					id="shape-a8540284-2a81-808f-8001-dbb291516702"
+					rx="0"
+					ry="0"
+					style="fill-opacity: 1"
+				>
+					<g
+						id="shape-a8540284-2a81-808f-8001-dbb291516703"
+						rx="0"
+						ry="0"
+						style="fill: rgb(255, 255, 255); fill-opacity: 1"
+					>
+						<!-- shadow path -->
+						<g id="shape-a8540284-2a81-808f-8001-dbb291516705">
+							<g id="fills-a8540284-2a81-808f-8001-dbb291516705">
 								<path
 									rx="0"
 									ry="0"
-									d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
-									style="stroke-width: 5; stroke-opacity: 1"
+									d="M18,13C18,7.481,22.481,3,28,3L291,3C296.519,3,301,7.481,301,13L301,148C301,153.519,296.519,158,291,158L245,158L214.167,188.833C212.419,190.581,209.581,190.581,207.833,188.833L177,158L28,158C22.481,158,18,153.519,18,148L18,13Z"
+									class="fill-neutral-900 stroke-neutral-900 dark:fill-yellow-300 dark:stroke-yellow-300"
+									style="fill: rgb(0, 0, 0); fill-opacity: 1"
 								/>
 							</g>
 						</g>
 					</g>
-				</g>
-			</svg>
-			<!-- mobile view shadow -->
-			<svg
-				class="absolute z-10 xl:hidden stroke-neutral-900 dark:stroke-neutral-50 dark:fill-neutral-50 fill-neutral-900 bottom-8 right-5"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				width="293"
-				xmlns="http://www.w3.org/2000/svg"
-				height="276"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9152fb485d"
-				viewBox="-2.5 -2.5 293 276"
-				style="-webkit-print-color-adjust: exact"
-				fill="none"
-				version="1.1"
-			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9152fb485d" rx="0" ry="0">
-					<g id="shape-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
-						<g id="fills-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+					<g id="shape-a8540284-2a81-808f-8001-dbb291516704">
+						<g id="fills-a8540284-2a81-808f-8001-dbb291516704">
 							<path
 								rx="0"
 								ry="0"
-								d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
+								d="M0,10C0,4.481,4.481,0,10,0L273,0C278.519,0,283,4.481,283,10L283,145C283,150.519,278.519,155,273,155L227,155L196.167,185.833C194.419,187.581,191.581,187.581,189.833,185.833L159,155L10,155C4.481,155,0,150.519,0,145L0,10Z"
+								style="fill-opacity: 1"
 							/>
 						</g>
-						<g id="strokes-4f92a8e6-89f4-80d5-8001-cf8e2069ad1e">
+						<g id="strokes-a8540284-2a81-808f-8001-dbb291516704">
 							<g class="stroke-shape">
 								<path
 									rx="0"
 									ry="0"
-									d="M0,0L0,232L198,232L198,271L234,232L288,232L288,0L0,0Z"
-									style="stroke-width: 5; stroke-opacity: 1"
+									d="M0,10C0,4.481,4.481,0,10,0L273,0C278.519,0,283,4.481,283,10L283,145C283,150.519,278.519,155,273,155L227,155L196.167,185.833C194.419,187.581,191.581,187.581,189.833,185.833L159,155L10,155C4.481,155,0,150.519,0,145L0,10Z"
+									style="
+										stroke-width: 10;
+
+										stroke-opacity: 1;
+									"
 								/>
 							</g>
 						</g>
@@ -317,68 +96,79 @@
 				</g>
 			</svg>
 
-			<!-- desktop view class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50" -->
+			<!-- desktop view  -->
 			<svg
 				ref="textbox"
+				class="z-20 hidden md:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 2xl:scale-100"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				class="xl:top-14 absolute z-20 hidden xl:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
-				width="679"
+				width="801"
 				xmlns="http://www.w3.org/2000/svg"
-				height="454"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d"
-				viewBox="-278.5 -22.5 679 454"
+				height="531.132"
+				id="screenshot-a8540284-2a81-808f-8001-dbaf68d07ce4"
+				viewBox="495 547 801 531.132"
 				style="-webkit-print-color-adjust: exact"
 				fill="none"
 				version="1.1"
 			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
-					<g id="fills-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+				<g id="shape-a8540284-2a81-808f-8001-dbaf68d07ce4">
+					<g id="fills-a8540284-2a81-808f-8001-dbaf68d07ce4">
 						<path
 							rx="0"
 							ry="0"
-							d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
+							d="M997.934,986L540,986C517.923,986,500,968.077,500,946L500,592C500,569.923,517.923,552,540,552L1251,552C1273.077,552,1291,569.923,1291,592L1291,946C1291,968.077,1273.077,986,1251,986L1172.198,986L1099.208,1058.99C1091.403,1066.795,1078.729,1066.795,1070.924,1058.99L997.934,986Z"
+							style="fill: rgb(255, 255, 255); fill-opacity: 1"
 						/>
 					</g>
-					<g id="strokes-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+					<g id="strokes-a8540284-2a81-808f-8001-dbaf68d07ce4">
 						<g class="stroke-shape">
 							<path
 								rx="0"
 								ry="0"
-								d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
-								style="stroke-width: 5; stroke-opacity: 1"
+								d="M997.934,986L540,986C517.923,986,500,968.077,500,946L500,592C500,569.923,517.923,552,540,552L1251,552C1273.077,552,1291,569.923,1291,592L1291,946C1291,968.077,1273.077,986,1251,986L1172.198,986L1099.208,1058.99C1091.403,1066.795,1078.729,1066.795,1070.924,1058.99L997.934,986Z"
+								style="
+									stroke-width: 10;
+
+									stroke-opacity: 1;
+								"
 							/>
 						</g>
 					</g>
 				</g>
 			</svg>
+
 			<!-- desktop shadow -->
 			<svg
+				class="test absolute z-10 hidden md:block dark:fill-yellow-300 fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 xl:scale-[0.85] md:scale-[0.63] 2xl:scale-95"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
-				class="test absolute z-10 hidden xl:block xl:scale-90 dark:fill-neutral-50 fill-neutral-900 stroke-neutral-900 dark:stroke-neutral-50"
-				width="679"
+				width="801"
 				xmlns="http://www.w3.org/2000/svg"
-				height="454"
-				id="screenshot-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d"
-				viewBox="-278.5 -22.5 679 454"
+				height="531.132"
+				id="screenshot-a8540284-2a81-808f-8001-dbaf68d07ce4"
+				viewBox="495 547 801 531.132"
 				style="-webkit-print-color-adjust: exact"
 				fill="none"
 				version="1.1"
 			>
-				<g id="shape-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
-					<g id="fills-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+				<g id="shape-a8540284-2a81-808f-8001-dbaf68d07ce4">
+					<g id="fills-a8540284-2a81-808f-8001-dbaf68d07ce4">
 						<path
 							rx="0"
 							ry="0"
-							d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
+							d="M997.934,986L540,986C517.923,986,500,968.077,500,946L500,592C500,569.923,517.923,552,540,552L1251,552C1273.077,552,1291,569.923,1291,592L1291,946C1291,968.077,1273.077,986,1251,986L1172.198,986L1099.208,1058.99C1091.403,1066.795,1078.729,1066.795,1070.924,1058.99L997.934,986Z"
+							style="fill-opacity: 1"
 						/>
 					</g>
-					<g id="strokes-4f92a8e6-89f4-80d5-8001-cf9d5ec4509d">
+					<g id="strokes-a8540284-2a81-808f-8001-dbaf68d07ce4">
 						<g class="stroke-shape">
 							<path
 								rx="0"
 								ry="0"
-								d="M-276,-20L398,-20L398,370L256,370L169,429L169,370L-276,370L-276,-20Z"
-								style="stroke-width: 5; stroke-opacity: 1"
+								d="M997.934,986L540,986C517.923,986,500,968.077,500,946L500,592C500,569.923,517.923,552,540,552L1251,552C1273.077,552,1291,569.923,1291,592L1291,946C1291,968.077,1273.077,986,1251,986L1172.198,986L1099.208,1058.99C1091.403,1066.795,1078.729,1066.795,1070.924,1058.99L997.934,986Z"
+								style="
+									fill: none;
+
+									stroke-opacity: 1;
+								"
 							/>
 						</g>
 					</g>
@@ -390,22 +180,29 @@
 <script setup lang="ts">
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
-	const { width, height } = useWindowSize();
+	const { width } = useWindowSize();
+
 	const distanceX = computed(() => {
 		if (width.value > 1400) {
-			if (elementX.value / 5 <= 22) {
-				return 50;
-			} else if (elementX.value / 5 >= 90) {
-				return 90;
-			} else {
-				return (elementX.value / 5).toFixed(1);
-			}
+			return (elementX.value / 20).toFixed(1);
+		} else if (width.value <= 1100) {
+			return -40;
 		} else {
-			return -60;
+			return -120;
 		}
 	});
 	const distanceY = computed(() => {
-		return (elementY.value / 11).toFixed(1);
+		if (width.value > 1400) {
+			if (elementY.value > 0) {
+				return (elementY.value / 11).toFixed(1);
+			} else {
+				return (elementY.value / 5).toFixed(1);
+			}
+		} else if (width.value <= 1100) {
+			return -110;
+		} else {
+			return -30;
+		}
 	});
 
 	const yToString = computed(() => {
@@ -421,6 +218,5 @@
 		right: v-bind('xToString');
 		bottom: v-bind('yToString');
 		transition: all ease;
-		transition-duration: 150ms;
 	}
 </style>
