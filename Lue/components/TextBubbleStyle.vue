@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
+		class="md:mt-12 h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
 	>
 		<!-- textBox -->
 		<div
@@ -8,7 +8,7 @@
 		>
 			<!-- welcome -->
 			<div
-				class="absolute md:top-[-0.85rem] xl:top-1 2xl:top-[-1.5rem] md:left-28 xl:left-[-2.5rem] 2xl:left-5 top-16 left-0 w-[40%] md:w-[20%] xl:w-[35%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
+				class="min-w-[150px] absolute md:top-[-0.85rem] xl:top-1 2xl:top-[-1.5rem] md:left-28 xl:left-[-2.5rem] 2xl:left-5 top-16 left-0 w-[40%] md:w-[20%] xl:w-[35%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
 			>
 				<h1
 					class="text-lg xl:text-3xl 2xl:text-4xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
@@ -187,7 +187,7 @@
 		if (width.value > 1400) {
 			return (elementX.value / 20).toFixed(1);
 		} else if (width.value <= 1100) {
-			return 70;
+			return -40;
 		} else {
 			return -120;
 		}
