@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
+		class="md:mt-12 h-[40vh] xl:h-full w-full relative flex items-center justify-center mt-2"
 	>
 		<!-- textBox -->
 		<div
@@ -8,7 +8,7 @@
 		>
 			<!-- welcome -->
 			<div
-				class="absolute xl:top-1 2xl:top-0 xl:left-[-2.5rem] 2xl:left-12 top-16 left-0 w-[40%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
+				class="min-w-[150px] absolute md:top-[-0.85rem] xl:top-1 2xl:top-[-1.5rem] md:left-28 xl:left-[-2.5rem] 2xl:left-5 top-16 left-0 w-[40%] md:w-[20%] xl:w-[35%] 2xl:w-[30%] h-[10%] 2xl:h-[12%] bg-neutral-900 z-30 dark:bg-yellow-300 flex items-center justify-center rounded-xl"
 			>
 				<h1
 					class="text-lg xl:text-3xl 2xl:text-4xl font-['Spicy_Rice'] text-neutral-50 dark:text-neutral-900"
@@ -18,10 +18,10 @@
 			</div>
 
 			<div
-				class="w-[85%] h-[55%] z-30 absolute xl:top-24 2xl:top-20 top-16 left-5 xl:left-16 flex flex-col items-center justify-center"
+				class="w-[85%] h-[55%] z-30 absolute xl:top-24 2xl:top-20 top-16 left-5 md:left-20 xl:left-16 flex flex-col items-center justify-center"
 			>
 				<h1
-					class="text-5xl xl:text-8xl 2xl:text-[113px] font-['Spicy_Rice'] dark:text-yellow-300 text-neutral-900"
+					class="text-5xl md:text-7xl xl:text-8xl 2xl:text-[113px] font-['Spicy_Rice'] dark:text-yellow-300 text-neutral-900"
 				>
 					LUE X NUXT
 				</h1>
@@ -33,7 +33,7 @@
 			</div>
 			<!-- textbox shape mobile view-->
 			<svg
-				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
+				class="absolute z-20 md:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				width="311"
 				xmlns="http://www.w3.org/2000/svg"
@@ -96,10 +96,10 @@
 				</g>
 			</svg>
 
-			<!-- desktop view class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50" -->
+			<!-- desktop view  -->
 			<svg
 				ref="textbox"
-				class="z-20 hidden xl:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
+				class="z-20 hidden md:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 2xl:scale-100"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				width="801"
 				xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@
 
 			<!-- desktop shadow -->
 			<svg
-				class="test absolute z-10 hidden xl:block xl:scale-90 dark:fill-yellow-300 fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
+				class="test absolute z-10 hidden md:block dark:fill-yellow-300 fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 xl:scale-[0.85] md:scale-[0.63] 2xl:scale-95"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				width="801"
 				xmlns="http://www.w3.org/2000/svg"
@@ -181,21 +181,28 @@
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
 	const { width } = useWindowSize();
+
 	const distanceX = computed(() => {
 		if (width.value > 1400) {
-			if (elementX.value / 5 <= 22) {
-				return 50;
-			} else if (elementX.value / 5 >= 90) {
-				return 90;
-			} else {
-				return (elementX.value / 5).toFixed(1);
-			}
+			return (elementX.value / 20).toFixed(1);
+		} else if (width.value <= 1100) {
+			return -40;
 		} else {
-			return -60;
+			return -120;
 		}
 	});
 	const distanceY = computed(() => {
-		return (elementY.value / 11).toFixed(1);
+		if (width.value > 1400) {
+			if (elementY.value > 0) {
+				return (elementY.value / 11).toFixed(1);
+			} else {
+				return (elementY.value / 5).toFixed(1);
+			}
+		} else if (width.value <= 1100) {
+			return -110;
+		} else {
+			return -30;
+		}
 	});
 
 	const yToString = computed(() => {
