@@ -33,7 +33,7 @@
 			</div>
 			<!-- textbox shape mobile view-->
 			<svg
-				class="absolute z-20 xl:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
+				class="absolute z-20 md:hidden fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				width="311"
 				xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@
 			<!-- desktop view class="hidden xl:block stroke-neutral-900 dark:stroke-neutral-50" -->
 			<svg
 				ref="textbox"
-				class="z-20 hidden xl:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 2xl:scale-100"
+				class="z-20 hidden md:block xl:scale-90 fill-neutral-50 dark:fill-neutral-900 stroke-neutral-900 dark:stroke-yellow-300 2xl:scale-100"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				width="801"
 				xmlns="http://www.w3.org/2000/svg"
