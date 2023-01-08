@@ -181,7 +181,6 @@
 	const textbox = ref(null);
 	const { elementX, elementY } = useMouseInElement(textbox);
 	const { width } = useWindowSize();
-	console.log(width.value);
 
 	const distanceX = computed(() => {
 		if (width.value > 1400) {
