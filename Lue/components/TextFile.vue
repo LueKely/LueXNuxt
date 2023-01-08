@@ -3,7 +3,7 @@
 	<div class="h-[60vh] w-full flex xl:items-center items-start justify-center">
 		<!-- actual app -->
 		<div
-			class="w-[85%] h-[65%] xl:w-[60%] xl:h-[90%] border-8 rounded-xl border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-yellow-300 shadow-[30px_20px_0px_0px_rgba(28,25,23,1)] dark:shadow-[30px_20px_0px_0px_rgba(253,224,71,1)] flex flex-col items-center justify-start"
+			class="w-[85%] h-[65%] md:w-[65%] xl:w-[60%] xl:h-[90%] border-8 rounded-xl border-neutral-900 bg-neutral-50 dark:bg-neutral-900 dark:border-yellow-300 shadow-[30px_20px_0px_0px_rgba(28,25,23,1)] dark:shadow-[30px_20px_0px_0px_rgba(253,224,71,1)] flex flex-col items-center justify-start"
 		>
 			<!--top bar -->
 			<div
@@ -29,11 +29,11 @@
 			<div class="w-[100%] h-[100%] flex flex-col justify-start p-3">
 				<div>
 					<p
-						class="xl:text-2xl font-mono dark:text-yellow-300 text-left 2xl:text-4xl"
+						class="md:text-xl xl:text-2xl font-mono dark:text-yellow-300 text-left 2xl:text-4xl"
 					>
 						{{ word
 						}}<span
-							class="inline-block w-[1px] h-5 xl:h-7 2xl:h-10 translate-y-1 xl:translate-y-[7px] bg-neutral-900 dark:bg-yellow-300"
+							class="inline-block w-[1px] h-5 md:h-7 2xl:h-10 translate-y-1 md:translate-y-[7px] bg-neutral-900 dark:bg-yellow-300"
 						>
 							<!-- type thingy kung nag tataype kung linee -->
 						</span>
@@ -42,7 +42,7 @@
 				<!-- static message -->
 				<div>
 					<p
-						class="xl:text-2xl 2xl:text-4xl font-mono mt-3 dark:text-yellow-300 text-left"
+						class="md:text-xl xl:text-2xl 2xl:text-4xl font-mono mt-3 dark:text-yellow-300 text-left"
 					>
 						Hey there! Welcome to my small project, i hope you can enjoy it as
 						much as i did.
