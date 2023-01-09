@@ -15,7 +15,7 @@
 	useHead({
 		title: 'Lue X Nuxt',
 
-		meta: [{ name: 'description', content: 'My amazing site' }],
+		meta: [{ name: 'description', content: 'Gnarly Stuff With Nuxt.js' }],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/Lue.ico' }],
 	});
 </script>
