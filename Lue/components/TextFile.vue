@@ -51,7 +51,7 @@
 				<!-- button -->
 
 				<a
-					href="https://github.com/LueKely/LueXNuxt"
+					href="https://github.com/LueKely/LueXNuxt/tree/master/Lue"
 					target="_blank"
 					class="mt-auto mb-3 rounded-xl mx-auto w-[60%] 2xl:w-[50%] 2xl:h-[14%] h-12 bg-neutral-900 hover:text-neutral-900 hover:bg-yellow-300 hover:border-neutral-900 border-4 dark:text-yellow-300 dark:hover:text-neutral-900 dark:hover:border-neutral-900 dark:border-yellow-300 text-neutral-50 border-neutral-50 flex items-center justify-center shadow-[0px_0px_0px_0px_rgba(28,25,23,1)] hover:shadow-[10px_10px_0px_0px_rgba(28,25,23,1)] transition-all ease-in-out delay-75 dark:hover:shadow-[10px_10px_0px_0px_rgba(253,224,71,1)]"
 				>
